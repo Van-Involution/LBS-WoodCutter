@@ -1,0 +1,21 @@
+{
+    "parent": "woodcutter:recipes/root",
+    "rewards": {
+        "recipes": [
+            "woodcutter:woodcutter_jungle_slab",
+            "woodcutter:woodcutter_jungle_stairs"
+        ]
+    },
+    "criteria": {
+        "has_jungle_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

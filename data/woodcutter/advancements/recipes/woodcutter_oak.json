@@ -1,0 +1,21 @@
+{
+    "parent": "woodcutter:recipes/root",
+    "rewards": {
+        "recipes": [
+            "woodcutter:woodcutter_oak_slab",
+            "woodcutter:woodcutter_oak_stairs"
+        ]
+    },
+    "criteria": {
+        "has_oak_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "parent": "woodcutter:recipes/root",
+    "rewards": {
+        "recipes": [
+            "woodcutter:woodcutter_warped_slab",
+            "woodcutter:woodcutter_warped_stairs"
+        ]
+    },
+    "criteria": {
+        "has_warped_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 {
     "type": "minecraft:stonecutting",
+    "group": "wooden_slab",
     "ingredient": {
         "item": "minecraft:birch_planks"
     },

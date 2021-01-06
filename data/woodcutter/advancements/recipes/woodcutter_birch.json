@@ -1,0 +1,21 @@
+{
+    "parent": "woodcutter:recipes/root",
+    "rewards": {
+        "recipes": [
+            "woodcutter:woodcutter_birch_slab",
+            "woodcutter:woodcutter_birch_stairs"
+        ]
+    },
+    "criteria": {
+        "has_birch_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

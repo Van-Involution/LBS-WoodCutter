@@ -1,0 +1,21 @@
+{
+    "parent": "woodcutter:recipes/root",
+    "rewards": {
+        "recipes": [
+            "woodcutter:woodcutter_dark_oak_slab",
+            "woodcutter:woodcutter_dark_oak_stairs"
+        ]
+    },
+    "criteria": {
+        "has_dark_oak_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

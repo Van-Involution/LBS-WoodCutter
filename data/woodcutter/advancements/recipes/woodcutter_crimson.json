@@ -1,0 +1,21 @@
+{
+    "parent": "woodcutter:recipes/root",
+    "rewards": {
+        "recipes": [
+            "woodcutter:woodcutter_crimson_slab",
+            "woodcutter:woodcutter_crimson_stairs"
+        ]
+    },
+    "criteria": {
+        "has_crimson_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

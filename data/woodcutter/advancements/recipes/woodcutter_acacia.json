@@ -1,0 +1,21 @@
+{
+    "parent": "woodcutter:recipes/root",
+    "rewards": {
+        "recipes": [
+            "woodcutter:woodcutter_acacia_slab",
+            "woodcutter:woodcutter_acacia_stairs"
+        ]
+    },
+    "criteria": {
+        "has_acacia_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_planks"
+                    }
+                ]
+            }
+        }
+    }
+}
